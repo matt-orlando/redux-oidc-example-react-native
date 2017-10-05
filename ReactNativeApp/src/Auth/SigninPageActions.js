@@ -1,6 +1,6 @@
 // @flow
-export const SIGNIN_PAGE_ERROR = 'SIGNIN_PAGE_ERROR';
-export const SIGNIN_PAGE_CLEAR = 'SIGNIN_PAGE_CLEAR';
+export const SIGNIN_PAGE_ERROR = 'Auth.SIGNIN_PAGE_ERROR';
+export const SIGNIN_PAGE_CLEAR = 'Auth.SIGNIN_PAGE_CLEAR';
 
 export const signinPageError = (message: string) => {
   return {

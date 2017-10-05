@@ -1,7 +1,7 @@
 // @flow
 const actionTypes = {
-  SHOW: 'Framework.AuthWebViewManager.ShowWebView',
-  HIDE: 'Framework.AuthWebViewManager.HideWebView'
+  SHOW: 'Auth.AuthWebViewManager.ShowWebView',
+  HIDE: 'Auth.AuthWebViewManager.HideWebView'
 };
 
 export const showWebView = function(url: string) {
