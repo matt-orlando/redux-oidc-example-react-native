@@ -1,0 +1,12 @@
+{
+	"private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "oidc-provider": "^2.3.2"
+  }
+}
