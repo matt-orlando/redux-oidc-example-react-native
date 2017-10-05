@@ -15,7 +15,7 @@ class SigninPage extends React.Component {
   render() {
     const { user } = this.props;
     const LogIn = () => {
-      userManager.signinPopup().done(() => {
+      userManager.signinPopup().then(() => {
         this.props.dispatch(signinPageClear());
       }, (err) => {
         this.props.dispatch(signinPageError(err.message + ': Remember to start OIDC Provider and run adb reverse commands.'));
