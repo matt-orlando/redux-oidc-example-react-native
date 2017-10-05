@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-export default class ReactNativeApp extends Component {
+export default class OIDCExample extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('ReactNativeApp', () => ReactNativeApp);
+AppRegistry.registerComponent('OIDCExample', () => OIDCExample);

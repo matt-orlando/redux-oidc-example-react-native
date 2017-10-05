@@ -16,7 +16,7 @@ import AuthWebViewManager from './Auth/AuthWebViewManager';
 import Todos from './Todos';
 import userManager from './Auth/userManager';
 
-class ReactNativeApp extends Component {
+class OIDCExample extends Component {
   render() {
     return (
       <Provider store={ store }>
@@ -32,4 +32,4 @@ class ReactNativeApp extends Component {
   }
 };
 
-AppRegistry.registerComponent('ReactNativeApp', () => ReactNativeApp);
+AppRegistry.registerComponent('OIDCExample', () => OIDCExample);

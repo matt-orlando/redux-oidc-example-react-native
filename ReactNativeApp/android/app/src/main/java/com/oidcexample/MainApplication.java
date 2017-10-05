@@ -1,4 +1,4 @@
-package com.reactnativeapp;
+package com.oidcexample;
 
 import android.app.Application;
 
