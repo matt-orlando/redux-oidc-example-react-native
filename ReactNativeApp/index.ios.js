@@ -3,7 +3,8 @@
  * https://github.com/facebook/react-native
  * @flow
  */
-
+import './src';
+/*
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -51,3 +52,4 @@ const styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent('OIDCExample', () => OIDCExample);
+*/
