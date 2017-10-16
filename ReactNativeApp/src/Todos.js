@@ -21,10 +21,7 @@ class Todos extends Component {
           onPress={ LogOut }
           title="Log Out"
         />
-        <FlatList
-          data={[{key: 'First Item'}, {key: 'Second Item'}]}
-          renderItem={({item}) => <Text>{item.key}</Text>}
-        />
+        <Text>Success! Use CTRL + M on Windows or ⌘D on iOS and enable JS debugging, then you can view the redux log to see the details of the authentication result.</Text>
       </View>
     );
   }
