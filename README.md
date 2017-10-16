@@ -13,8 +13,9 @@ Starts a node server on port 3000.
 Sets up a local development environment for the react-native app.
 1. Follow React Native's [Getting Started](https://facebook.github.io/react-native/docs/getting-started.html) instructions for Building Projects with Native Code. This should result in a working emulator and the `react-native` command line interface.
 2. Navigate into ReactNativeApp and run `npm i` to download packages
-3. If using Android Emulator see next section
-4. Run `react-native run-android` or `react-native run-ios`
+3. Launch emulator
+4. If using Android Emulator see next section
+5. Run `react-native run-android` or `react-native run-ios`
 
 ##### Allow Android Emulator to Communicate With Localhost
 By default all localhost ports on the Android Emulator will point to the Android Emulator, but we need localhost:3000 to point to your computer running OIDC Provider instead. You can tell the emulator to do this by performing the following steps OR by double clicking on `android-emulator-adb-reverse.cmd`.
